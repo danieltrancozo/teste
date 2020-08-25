@@ -12,7 +12,6 @@ div.container{
    display: grid;
    grid-template-columns: 1fr 4fr;
    grid-template-rows: 10vh 70vh 20vh;
-   grid-gap: 10px;
    grid-template-areas: "h h" "a m" "a f"
 }
 .menu{
