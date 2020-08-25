@@ -9,9 +9,10 @@ div.container{
    position: absolute;
    height: 100%;
    width: 100%;
-   display:grid;
-   grid-template-collumns: 1fr 9fr;
+   display: grid;
+   grid-template-columns: 1fr 4fr;
    grid-template-rows: 10vh 70vh 20vh;
+   grid-gap: 10px;
    grid-template-areas: "h h" "a m" "a f"
 }
 .menu{
